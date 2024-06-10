@@ -20,9 +20,9 @@ const Join: React.FC<JoinProps>= ({ setChatVisibility, setSocket }) => {
     }
     return (
         <div>
-            <h1>Join</h1>
-            <input type='text' ref={usernameRef} placeholder='User' />
-            <button onClick={ ()=> handleSubmit()}>Join</button>
+            <h1>Login</h1>
+            <input type='text' ref={usernameRef} placeholder='Username' />
+            <button onClick={()=> handleSubmit()} style={{backgroundColor: '#E91E63'}}>Join</button>
         </div>
     )
 }
