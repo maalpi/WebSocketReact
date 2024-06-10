@@ -10,4 +10,5 @@ This folder contains the back end files, server and websocket configuration. use
 ## Technologies used
 - React + Vite
 - Typescript and Javascript
+- Styled Components
 - Socket.io
